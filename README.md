@@ -4,7 +4,7 @@ This repository serves as both a demonstration and the companion code for my det
 
 ## Architecture
 
-![cloud architecture](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3zehpnu7t8spv7gs7iny.png)
+![alt text](img-react-app-infra-design.png)
 
 ## Technologies Used
 
