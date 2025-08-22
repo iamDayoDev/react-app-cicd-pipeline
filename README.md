@@ -88,18 +88,25 @@ This repository serves as both a demonstration and the companion code for my det
 
 ### UserData
 ```bash
+#!/bin/bash
 # Update system
 sudo apt update -y
 
-# Install CodeDeploy Agent
+# Install Ruby
 sudo apt install ruby-full -y
+
+# Download CodeDeploy agent
 cd /home/ubuntu
 wget https://aws-codedeploy-us-east-1.s3.us-east-1.amazonaws.com/latest/install
 chmod +x ./install
+
+# Install agent
 sudo ./install auto
 
+# Enable and start agent
 sudo systemctl enable codedeploy-agent
 sudo systemctl start codedeploy-agent
+
 ```
 
 
