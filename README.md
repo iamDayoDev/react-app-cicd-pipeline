@@ -94,7 +94,7 @@ sudo apt update -y
 # Install CodeDeploy Agent
 sudo apt install ruby-full -y
 cd /home/ubuntu
-wget https://aws-codedeploy-us-east-2.s3.us-east-2.amazonaws.com/latest/install
+wget https://aws-codedeploy-us-east-1.s3.us-east-1.amazonaws.com/latest/install
 chmod +x ./install
 sudo ./install auto
 
