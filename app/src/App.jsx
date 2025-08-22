@@ -36,7 +36,7 @@ function App() {
           </div>
 
           <p>
-            Simple demonstration of AWS CI/CD pipeline using AWS Developer tools, S3, Custome VPC & Vite + React.
+            Simple demonstration of AWS CI/CD pipeline using AWS Developer tools, S3, Custom VPC & Vite + React.
           </p>
           </div>
         
